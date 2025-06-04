@@ -5,7 +5,7 @@ Estudante de Ciênicas da Computção
 
 Este projeto é um aplicativo interativo desenvolvido com [Streamlit](https://streamlit.io/) que permite classificar notícias como **Fake** (falsas) ou **Real** (verdadeiras) com base em um modelo de aprendizado de máquina treinado com Gradient Boosting.
 
-## 🔍 Funcionalidades
+## Funcionalidades
 
 - Classificação de notícias como Fake ou Real
 - Entrada de texto manual ou via upload de arquivos `.txt`
@@ -14,7 +14,7 @@ Este projeto é um aplicativo interativo desenvolvido com [Streamlit](https://st
 - Interface amigável com Streamlit
 - Modelo treinado com validação cruzada e vetorização TF-IDF
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python 3.10+
 - Scikit-learn
@@ -23,7 +23,7 @@ Este projeto é um aplicativo interativo desenvolvido com [Streamlit](https://st
 - Streamlit
 - Joblib (para salvar e carregar o modelo e o vetorizador)
 
-## 📦 Instalação
+## Instalação
 
 ### 1. Clone o repositório
 
@@ -46,6 +46,7 @@ bash
 Copy
 Edit
 streamlit run streamlit_app.py
+
 📁 Estrutura do projeto
 graphql
 Copy
@@ -74,7 +75,7 @@ Acurácia média: ~99.5%
 
 Curvas geradas: Confusion Matrix, ROC, Learning Curve
 
-📌 Como usar
+Como usar
 Acesse o app via navegador após executar streamlit run.
 
 Escolha o modo de entrada de texto (manual ou arquivo).
@@ -83,12 +84,12 @@ Clique em "Classificar Notícia".
 
 Veja o resultado da predição e a probabilidade associada.
 
-⚠️ Limitações
+Limitações
 O modelo foi treinado em um conjunto específico de notícias.
 
 Pode não generalizar perfeitamente para outros contextos (ex: redes sociais).
 
 Verificações humanas e fontes confiáveis continuam essenciais.
 
-📄 Licença
+Licença
 Este projeto é livre para uso educacional e experimental. Para uso comercial, entre em contato com o autor.
