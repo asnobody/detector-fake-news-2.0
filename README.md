@@ -1,5 +1,9 @@
-Autor: Carlos II
-Estudante de Ciênicas da Computção
+# Autor: Carlos II
+
+# Estudante de Ciênicas da Computção
+
+# Universidade Mandume Ya Ndemufayo
+
 
 # 📰 Detector de Fake News
 
